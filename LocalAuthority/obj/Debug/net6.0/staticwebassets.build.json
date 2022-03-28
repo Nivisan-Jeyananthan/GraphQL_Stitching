@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cwfnCuou0hVRktVrNcOA7ho3fkueaZd0f8h2Ft4niNg=",
+  "Source": "LocalAuthority",
+  "BasePath": "_content/LocalAuthority",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

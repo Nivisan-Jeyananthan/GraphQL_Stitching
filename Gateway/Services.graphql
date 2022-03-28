@@ -1,0 +1,4 @@
+﻿extend type Query {
+	students:[TLernender!]! @delegate(schema:"students")
+	localAuthorities:[LocalAuthority!]! @delegate(schema:"local_authorities",path:"local_authorities().localAuthorities")
+}
