@@ -1,4 +1,5 @@
 using Students.GraphQL.Queries;
+using Students.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;

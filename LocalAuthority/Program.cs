@@ -1,4 +1,5 @@
 using LocalAuthority.GraphQL.Queries;
+using LocalAuthority.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 var services = builder.Services;

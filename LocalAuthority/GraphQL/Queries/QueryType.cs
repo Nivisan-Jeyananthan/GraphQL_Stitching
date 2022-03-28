@@ -1,4 +1,6 @@
-﻿namespace LocalAuthority.GraphQL.Queries
+﻿using LocalAuthority.Infrastructure;
+
+namespace LocalAuthority.GraphQL.Queries
 {
     public class QueryType : ObjectTypeExtension
     {

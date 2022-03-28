@@ -1,4 +1,6 @@
-﻿namespace Students.GraphQL.Queries
+﻿using Students.Infrastructure;
+
+namespace Students.GraphQL.Queries
 {
     public class QueryType : ObjectTypeExtension
     {
@@ -16,7 +18,7 @@
                 .Type<NonNullType<ListType<NonNullType<StudentType>>>>()
                 .UseFiltering()
                 ;
-                
+
         }
     }
 }

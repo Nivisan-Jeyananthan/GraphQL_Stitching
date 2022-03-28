@@ -1,4 +1,4 @@
-﻿namespace Gateway;
+﻿namespace Gateway.GraphQL.Queries;
 
 public class Query
 {

@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace LocalAuthority
+﻿namespace LocalAuthority.Infrastructure
 {
     [GraphQLName("LocalAuthority")]
     public partial class TnPolitischeGemeinde

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 
-namespace LocalAuthority
+namespace LocalAuthority.Infrastructure
 {
     public partial class BISSContext : DbContext
     {

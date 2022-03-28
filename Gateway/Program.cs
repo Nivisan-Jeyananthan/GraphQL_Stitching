@@ -1,3 +1,4 @@
+using Gateway.GraphQL.Queries;
 using Gateway.GraphQL.Stitching;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,7 +17,7 @@ services
     .AddGraphQLServer()
     .AddQueryType<Query>()
     .AddRemoteSchema(WellknownSchemaNames.LocalAuthorities)
-    .AddRemoteSchema(WellknownSchemaNames.Students,ignoreRootTypes:true)
+    .AddRemoteSchema(WellknownSchemaNames.Students, ignoreRootTypes: true)
     .AddTypeExtensionsFromFile("./Services.graphql")
     .AddFiltering()
     .AddSorting()

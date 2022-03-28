@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace Students
+﻿namespace Students.Infrastructure
 {
     public partial class TLernender
     {
