@@ -18,7 +18,7 @@ services
     .AddQueryType<Query>()
     .AddRemoteSchema(WellknownSchemaNames.LocalAuthorities)
     .AddRemoteSchema(WellknownSchemaNames.Students, ignoreRootTypes: true)
-    .AddTypeExtensionsFromFile("./Services.graphql")
+    .AddTypeExtensionsFromFile("./GraphQL/Stitching/Services.graphql")
     .AddFiltering()
     .AddSorting()
     ;
