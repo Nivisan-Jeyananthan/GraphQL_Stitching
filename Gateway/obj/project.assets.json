@@ -1809,23 +1809,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\b251pnj\\.nuget\\packages\\": {},
+    "C:\\Users\\Kami\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Code\\Repos\\Test\\GraphQL-Demo\\GraphQL_Stitching\\Gateway\\Gateway.csproj",
+      "projectUniqueName": "E:\\Work\\Bista\\GraphQL_Stitching\\Gateway\\Gateway.csproj",
       "projectName": "Gateway",
-      "projectPath": "C:\\Code\\Repos\\Test\\GraphQL-Demo\\GraphQL_Stitching\\Gateway\\Gateway.csproj",
-      "packagesPath": "C:\\Users\\b251pnj\\.nuget\\packages\\",
-      "outputPath": "C:\\Code\\Repos\\Test\\GraphQL-Demo\\GraphQL_Stitching\\Gateway\\obj\\",
+      "projectPath": "E:\\Work\\Bista\\GraphQL_Stitching\\Gateway\\Gateway.csproj",
+      "packagesPath": "C:\\Users\\Kami\\.nuget\\packages\\",
+      "outputPath": "E:\\Work\\Bista\\GraphQL_Stitching\\Gateway\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\b251pnj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Kami\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1887,7 +1887,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

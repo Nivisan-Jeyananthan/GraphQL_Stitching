@@ -1,4 +1,4 @@
 ﻿extend type TLernender {
 	localAuthority:[LocalAuthority!]! 
-	@delegate(schema:"local_authorities", path:"localAuthorityService().localAuthorities(where:{pgemId:{eq:$fields:lernPgemId}})" )
+	@delegate(schema:"local_authorities", path:"localAuthorityService().localAuthorities(where:{pgemId:{eq:$fields:lernPgemId}})")
 }
